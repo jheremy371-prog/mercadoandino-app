@@ -20,7 +20,7 @@ app.use(express.json({ limit: "1mb" }));
 app.get("/", (_req, res) => {
   res.status(200).send(
     `<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Mercado Andino</title></head>` +
-    `<body><h1>Mercado Andino v1</h1><p>Aplicación en ejecución.</p>` +
+    `<body><h1>Mercado Andino v2</h1><p>Aplicación en ejecución.</p>` +
     `<small>Instancia: ${os.hostname()}</small></body></html>`
   );
 });
